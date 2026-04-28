@@ -1,1 +1,1 @@
-This extension removes unsupported browser watermark in google services# no-unsupported-watermark-google
+This extension removes unsupported browser watermark in google services
