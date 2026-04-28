@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "Remove Unsupported watermark on google services",
+    "version": "1.0",
+    "author": "zenlond",
+    "description": "Automatically hides 'Unsupported browser' banners on Google services.",
+    "icons": {
+      "48": "icon48.png",
+      "128": "icon128.png"
+    },
+    "content_scripts": [
+      {
+        "matches": [
+          "*://meet.google.com/*",
+          "*://docs.google.com/*",
+          "*://sheets.google.com/*",
+          "*://slides.google.com/*",
+          "*://drive.google.com/*"
+        ],
+        "css": ["style.css"],
+        "run_at": "document_start",
+        "all_frames": true
+      }
+    ],
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "remove-google-watermark@zenlond"
+      }
+    }
+  }

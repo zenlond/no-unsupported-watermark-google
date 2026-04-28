@@ -1,0 +1,21 @@
+
+div[jscontroller="IsCPXc"][role="banner"],
+div.V8Lvo[role="banner"] {
+    display: none !important;
+}
+
+
+#docs-file-level-banner,
+.appsElementsBrowserSupportBannerRoot {
+    display: none !important;
+}
+
+
+#docs-banners {
+    min-height: 0 !important;
+}
+
+
+[jsname="uXQRlc"] {
+    display: none !important;
+}
